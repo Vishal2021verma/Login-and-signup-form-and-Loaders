@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="form.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <title></title>
+</head>
+
+<body>
+
+  <div class="fcontainer">
+    <button type="button" onclick="openlogin()" class="heading">Login Form</button>.
+    <button type="button" onclick="opensignup()" class="heading">Signup Form</button>
+  </div>
+
+  <!--LOGIN Form-->
+  <div class="bg-container" id="id101">
+    <span onclick="closelogin()" class="close" title="Close">&times;</span>
+    <div class="container animate">
+      <div class="login-container">
+        <form action="#" class="login-box">
+          <div class="heading">
+            <h1>LOGIN</h1>
+          </div>
+          <div class="input-container">
+            <input type="text" placeholder="Enter Username" name="uname" required>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+            <div class="forget-psw">
+              <label>
+                <input type="checkbox" checked="checked" name="remember"><span>Remember Me</span>
+              </label>
+              <span class="psw">Forgot <a href="#">password?</a></span>
+            </div>
+            <button type="submit">Login</button>
+          </div>
+          </from>
+      </div>
+    </div>
+  </div>
+  <!--End of LOGIN Form-->
+
+  <!-- Signup Form-->
+  <div class="bg-container2" id="id102">
+    <span onclick="closesignup()" class="close" title="Close">&times;</span>
+    <div class="container2 animate">
+      <div class="signup-container">
+
+        <form action="#" class="signup-box">
+          <div class="heading2">
+            <h1>Signup</h1>
+            <p>Please fill in this form to create an account.</p>
+          </div>
+          <div class="input-container2">
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" required>
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+            <label for="psw-repeat"><b>ReEnter Password</b></label>
+            <input type="password" placeholder="ReEnter Password" name="psw-repeat" required>
+          </div>
+          <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+          <div class="clearfix">
+            <button type="button" class="cancelbtn">Cancel</button>
+            <button type="submit" class="signupbtn">Sign Up</button>
+          </div>
+        </form>
+
+      </div>
+    </div>
+    </div>
+
+<div class="loader-body">
+  <h1>Loaders</h1>
+  <div class="loader1">
+    <div class="dot1"></div>
+    <div class="dot2"></div>
+    <div class="dot3"></div>
+    <div class="dot4"></div>
+  </div>
+  <div class="loader2">
+    <div class="dot11"></div>
+    <div class="dot22"></div>
+    <div class="dot33"></div>
+    <div class="dot44"></div>
+  </div>
+  <div class="loader3">
+    <div class="circle"></div>
+  </div>
+  <div class="loadery">
+    <div class="circley"></div>
+  </div>
+  <div class="loader4">
+    <div class="circle1"><div class="circle2"><div class="circle3"></div></div></div>
+  </div>
+</div>
+
+
+
+  <script type="text/javascript" src="script.js">
+
+  </script>
+
+</body>
+
+</html>

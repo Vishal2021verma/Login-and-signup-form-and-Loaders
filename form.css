@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+body{
+  margin: 0;
+  background-color: white;
+  transition: 0.3s;
+
+}
+
+/* main page */
+.fcontainer{
+  background-color: #1a1a1a;
+  height:100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+ .fcontainer button {
+
+  background-color: #1a1a1a;
+  border:2px solid darkgrey;
+  border-radius: 100px;
+  padding:15px 50px;
+  color:darkgrey;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight:300;
+  font-weight: 300;
+  font-size: 30px;
+  transition: 0.2s;
+}
+.fcontainer button:hover{
+  color:White;
+  border:2px solid white;
+}
+
+
+
+
+
+ .bg-container {
+   display:none;
+   width:100%;
+   height:100vh;
+   position:absolute;
+   top:0;
+   left:0;
+   background-color: rgba(0,0,0,0.4);
+ }
+.close{
+  position:absolute;
+  top:30px;
+  right:30px;
+  color:darkgrey;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.close:hover{
+  color:darkred;
+}
+
+.container{
+  height:100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.login-container {
+  width:35%;
+  background-color:#1a1a1a;
+  border:none;
+  border-radius: 50px;
+  text-align: center;
+}
+.login-box{
+  width:80%;
+  margin:50px auto;
+
+}
+
+
+.heading{
+  margin-bottom: 30px;
+}
+
+.heading h1 {
+  text-align: left;
+  font-family: 'Ubuntu',sans-serif;
+  color:white;
+  margin: 0px;
+}
+.input-container{
+
+}
+.input-container input {
+  width:90%;
+  margin-bottom: 30px;
+  padding: 0px 10px 10px;
+  font-size: 16px;
+  border:none;
+  border-bottom: 1px solid #f5f5f5;
+  outline: none;
+  background-color: rgba(0,0,0,0);
+  color:#fff;
+  transition: 0.3s;
+}
+
+input:focus{
+  border-bottom: 1px solid #ff7f5f;
+}
+.input-container button {
+ width:90%;
+ background-color: #1a1a1a;
+ border:2px solid darkgrey;
+ border-radius: 100px;
+ padding:10px 30px;
+ color:darkgrey;
+ font-family: 'Ubuntu', sans-serif;
+ font-weight:400;
+ font-size: 20px;
+}
+.input-container button:hover{
+  color:darkgreen;
+  border:2px solid darkgreen;
+}
+
+.forget-psw  {
+margin-bottom: 30px;
+font-family: sans-serif;
+color:darkgrey;
+}
+.forget-psw input {
+  width:10%;
+  float:left;
+}
+.forget-psw label{
+  width:40%;
+  float:left;
+
+}
+.forget-psw .psw{
+  float:right;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)}
+  to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+  from {transform: scale(0)}
+  to {transform: scale(1)}
+}
+/*login End*/
+
+/*Signup Start*/
+
+
+
+ .bg-container2 {
+   display:none;
+   width:100%;
+   height:100vh;
+   position:absolute;
+   top:0;
+   left:0;
+   background-color: rgba(0,0,0,0.4);
+ }
+.container2{
+  height:100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.signup-container {
+  width:35%;
+  background-color:#1a1a1a;
+  border:none;
+  border-radius: 50px;
+  text-align: left;
+  padding:50px;
+
+}
+
+.signup-box{
+
+  width:80%;
+  margin:50px auto;
+  text-align: left;
+}
+
+.input-container2 input {
+  width:100%;
+  margin-bottom: 30px;
+  padding: 0px 0px 10px;
+  font-size: 16px;
+  border:none;
+  border-bottom: 1px solid #f5f5f5;
+  outline: none;
+  background-color: rgba(0,0,0,0);
+  color:#fff;
+  transition: 0.3s;
+}
+
+input:focus{
+  border-bottom: 1px solid #ff7f5f;
+}
+.input-container2 label {
+  display: block;
+  margin-bottom: 20px;
+  font-size:18px;
+  color:lightgrey;
+  font-family: 'Ubuntu', sans-serif;
+}
+.clearfix button {
+ width:49%;
+ background-color: #1a1a1a;
+ border:2px solid darkgrey;
+ border-radius: 100px;
+ padding:10px 30px;
+ color:darkgrey;
+ font-family: 'Ubuntu', sans-serif;
+ font-weight:400;
+ font-size: 20px;
+}
+.clearfix .cancelbtn:hover{
+  color:darkred;
+  border:2px solid darkred;
+}
+.clearfix .signupbtn:hover{
+  color:darkgreen;
+  border:2px solid darkgreen;
+}
+
+.heading2{
+  margin-bottom: 30px;
+}
+
+.heading2 h1  {
+  text-align: left;
+  font-family: 'Ubuntu',sans-serif;
+  color:white;
+  margin: 0px;
+}
+ p{
+  color:darkgrey;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+/*loader*/
+
+.loader-body {
+  width:100%;
+  text-align:center;
+}
+.loader-body h1 {
+  margin:50px auto;
+  font-size:50px;
+}
+.loader1 {
+  text-align: left;
+  margin:0 auto 30px auto;
+  width:50%;
+  border:1px solid darkgrey;
+  padding:12px 20px;
+}
+.dot1, .dot2, .dot3, .dot4{
+  display:inline-block;
+  position: relative;
+  margin-right:-5px;
+  width:15px;
+  height:15px;
+  border:none;
+  border-radius: 50%;
+  background-color: black;
+  animation-name: example;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes example {
+  0%   {background-color:black; left:0px; top:0px;}
+  25% {margin-right:10px;}
+  50% {background-color:darkgrey; left:580px; top:0px; margin-right:-5px}
+  75% {margin-right:10px;}
+  100%  {background-color:black; left:0px; top:0px;}
+}
+
+
+/*loader 2*/
+.loader2 {
+  text-align:center;
+  margin:0 auto 30px auto;
+  width:50%;
+  border:1px solid darkgrey;
+  padding:12px 20px;
+}
+.dot11, .dot22, .dot33, .dot44{
+  display:inline-block;
+  position: relative;
+  margin-right:5px;
+  width:15px;
+  height:15px;
+  border:none;
+  border-radius: 50%;
+  background-color: black;
+}
+.dot11{
+animation-name:adot11;
+animation-delay: 0s;
+animation-duration:2s;
+animation-iteration-count: infinite;
+}
+.dot22{
+animation-name:adot22;
+animation-delay: .5s;
+animation-duration:2s;
+animation-iteration-count: infinite;
+}
+.dot33{
+animation-name:adot33;
+animation-delay: 1s;
+animation-duration:2s;
+animation-iteration-count: infinite;
+}
+.dot44{
+animation-name:adot44;
+animation-delay: 1.5s;
+animation-duration:2s;
+animation-iteration-count: infinite;
+}
+
+@keyframes adot11 {
+  0% {background-color:rgba(0,0,0,1); }
+  100% {background-color: rgba(0,0,0,.1);}
+}
+@keyframes adot22 {
+  0% {background-color:rgba(0,0,0,1); }
+  100% {background-color: rgba(0,0,0,.1);}
+}
+@keyframes adot33 {
+  0% {background-color:rgba(0,0,0,1); }
+  100% {background-color: rgba(0,0,0,.1);}
+}
+@keyframes adot44 {
+  0% {background-color:rgba(0,0,0,1); }
+  100% {background-color: rgba(0,0,0,.1);}
+}
+
+/*loader 3 */
+.loader3{
+  width:100px;
+  height:100px;
+  text-align: center;
+  margin:50px auto 50px auto;
+  border:1px solid darkgrey;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.loader3 .circle{
+margin:auto;
+width:50px;
+height:50px;
+border:5px solid lightgrey;
+border-top: 5px solid #3498db;
+border-radius: 50%;
+animation: spin 1s linear infinite;
+}
+@keyframes spin {
+  0% { transform: rotate(0deg);}
+  100% { transform: rotate(360deg); }
+}
+
+.loadery{
+
+  width:100px;
+  height:100px;
+  text-align: center;
+  margin:50px auto 50px auto;
+  border:1px solid darkgrey;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.loadery .circley{
+margin:auto;
+width:80px;
+height:80px;
+border:5px solid lightgrey;
+border-top: 5px solid red;
+border-radius: 50%;
+animation: spiny 1s linear infinite;
+}
+@keyframes spiny {
+  0% { transform: rotate(0deg);}
+  25% {transform: rotate(180deg);}
+  50%{transform:rotate(280deg)}
+  75% {transform: rotate(330deg)}
+  100% { transform: rotate(360deg); }
+}
+
+/*loader 4*/
+.loader4{
+  width:100px;
+  height:100px;
+  text-align: center;
+  margin:50px auto 50px auto;
+  border:1px solid darkgrey;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.circle1{
+margin:auto;
+width:80px;
+height:80px;
+border:5px solid rgba(0,0,0,0);
+border-top: 3px solid #3498db;
+border-radius: 50%;
+display:flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+animation: spin 2s linear infinite;
+}
+.circle2{
+  margin:auto;
+  width:65px;
+  height:65px;
+  border:5px solid rgba(0,0,0,0);
+  border-top: 3px solid green;
+  border-radius: 50%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  animation: spin 2s linear infinite;
+}
+.circle3{
+margin:auto;
+width:45px;
+height:45px;
+border:5px solid rgba(0,0,0,0);
+border-top: 3px solid red;
+border-radius: 50%;
+animation: spin 2s linear infinite;
+}
